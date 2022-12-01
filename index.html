@@ -73,11 +73,11 @@
 </div>
 <script>
 document.querySelectorAll('.fakeimg')[4].onclick=()=>{
-if((!localStorage.gr4)){}
+if((!localStorage.gr4)){alert('hi1');}
 }
 document.querySelectorAll('.fakeimg')[5].onclick=(e)=>{
-console.log(e.target.innerHTML)
-if((!localStorage.gr5)){localStorage.setItem('gr5','hi2')}
+console.log('hi2');
+if((!localStorage.gr5)){localStorage.setItem('gr5','hi2');alert('hi2');}
 }
 </script>
 </body>
